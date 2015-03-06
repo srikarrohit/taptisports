@@ -1,0 +1,66 @@
+.jumbotron
+{
+	background: url('../images/tapti.jpg');
+	height:650px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity:0.8;
+}
+.jumbotron
+{
+	position: fixed;
+	left: 0px;
+	width:100%;
+}
+.icon-menu {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:black;
+  opacity:1;
+  font-weight:bold;
+}
+.icon-close
+{
+	padding-left:10px;
+	cursor:pointer;
+}
+.icon-menu i
+{
+  margin-right: 5px;
+}
+.sidebar-nav li>a
+{
+	text-decoration: none;
+	color:white;
+}
+.sidebar-nav li>a:hover
+{
+	background-color: transparent;
+}
+.sidebar-nav li
+{
+	padding-top:10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom: 1px solid white;
+}
+.brand
+{
+	border-top: 1px solid white;
+}
+.sidebar-wrapper
+{
+	width:250px;
+	background-color: black;
+	position: fixed;
+	left:-250px;
+	height:650px;
+	opacity:0.6;
+}
